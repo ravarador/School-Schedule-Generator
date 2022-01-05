@@ -1,0 +1,45 @@
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\bin\Debug\configuration_with_db.exe.config
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\bin\Debug\configuration_with_db.exe
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\bin\Debug\configuration_with_db.pdb
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\bin\Debug\configuration_with_db.xml
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\obj\Debug\configuration_with_db.vbprojAssemblyReference.cache
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\obj\Debug\configuration_with_db.Form1.resources
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\obj\Debug\configuration_with_db.Resources.resources
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\obj\Debug\configuration_with_db.vbproj.GenerateResource.cache
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\obj\Debug\configuration_with_db.vbproj.CoreCompileInputs.cache
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\obj\Debug\configuration_with_db.exe
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\obj\Debug\configuration_with_db.xml
+C:\Users\Fantech\AppData\Local\Temporary Projects\configuration_with_db\obj\Debug\configuration_with_db.pdb
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\configuration_with_db.exe.config
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\configuration_with_db.exe
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\configuration_with_db.pdb
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\configuration_with_db.xml
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\EntityFramework.dll
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\System.Data.SQLite.dll
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\EntityFramework.xml
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\System.Data.SQLite.xml
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_addinstructor.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_addroom.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_addsection.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_addsubject.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_createclass.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_main.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_viewdatabase.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.Resources.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.vbproj.GenerateResource.cache
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.vbproj.CoreCompileInputs.cache
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.vbproj.CopyComplete
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.exe
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.xml
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.pdb
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_login.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_testlogin.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_changepass.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.vbprojAssemblyReference.cache
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_backup.resources
+C:\Users\Fantech\source\repos\configuration_with_db\configuration_with_db\obj\Debug\configuration_with_db.form_classdatabase.resources

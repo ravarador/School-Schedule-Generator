@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53BB7814-B722-4CE3-BEAF-565A4569F01B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>configuration_with_db.My.MyApplication</StartupObject>
+    <RootNamespace>configuration_with_db</RootNamespace>
+    <AssemblyName>configuration_with_db</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>configuration_with_db.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>configuration_with_db.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.109.1\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.109.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.109.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.109.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="form_addinstructor.Designer.vb">
+      <DependentUpon>form_addinstructor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_addinstructor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_addroom.Designer.vb">
+      <DependentUpon>form_addroom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_addroom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_addsection.Designer.vb">
+      <DependentUpon>form_addsection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_addsection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_addsubject.Designer.vb">
+      <DependentUpon>form_addsubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_addsubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_backup.Designer.vb">
+      <DependentUpon>form_backup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_backup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_changepass.Designer.vb">
+      <DependentUpon>form_changepass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_changepass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_classdatabase.Designer.vb">
+      <DependentUpon>form_classdatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_classdatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_createclass.Designer.vb">
+      <DependentUpon>form_createclass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_createclass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_login.Designer.vb">
+      <DependentUpon>form_login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_main.Designer.vb">
+      <DependentUpon>form_main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_testlogin.Designer.vb">
+      <DependentUpon>form_testlogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_testlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_viewdatabase.Designer.vb">
+      <DependentUpon>form_viewdatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form_viewdatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="form_addinstructor.resx">
+      <DependentUpon>form_addinstructor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_addroom.resx">
+      <DependentUpon>form_addroom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_addsection.resx">
+      <DependentUpon>form_addsection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_addsubject.resx">
+      <DependentUpon>form_addsubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_backup.resx">
+      <DependentUpon>form_backup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_changepass.resx">
+      <DependentUpon>form_changepass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_classdatabase.resx">
+      <DependentUpon>form_classdatabase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_createclass.resx">
+      <DependentUpon>form_createclass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_login.resx">
+      <DependentUpon>form_login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_main.resx">
+      <DependentUpon>form_main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_testlogin.resx">
+      <DependentUpon>form_testlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_viewdatabase.resx">
+      <DependentUpon>form_viewdatabase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_1-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instructor_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\class_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subject_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_instructor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_room2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_section2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_subject2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amalogo_loginform.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_for_login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_changepass.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.109.1\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.109.1\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.109.1\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.109.1\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>
